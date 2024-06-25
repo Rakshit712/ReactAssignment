@@ -1,0 +1,31 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.search-bar {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filters {
+  margin-bottom: 10px;
+}
+
+.filter {
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 2px 0;
+}
+
+.dropdowns select, .dropdowns input {
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
